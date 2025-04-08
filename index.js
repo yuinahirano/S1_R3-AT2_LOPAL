@@ -1,1 +1,10 @@
 const numTentativa = parseFloat(prompt("Insira um número"));
+const numTentativa = parseFloat(prompt("Insira um número"));
+const numTentativa = parseFloat(prompt("Insira um número"));
+const numTentativa = parseFloat(prompt("Insira um número"));
+const numTentativa = parseFloat(prompt("Insira um número"));
+const numTentativa = parseFloat(prompt("Insira um número"));
+const numTentativa = parseFloat(prompt("Insira um número"));
+const numTentativa = parseFloat(prompt("Insira um número"));
+const numTentativa = parseFloat(prompt("Insira um número"));
+const numTentativa = parseFloat(prompt("Insira um número"));
