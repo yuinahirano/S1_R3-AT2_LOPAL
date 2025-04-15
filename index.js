@@ -2,12 +2,11 @@ const numero = parseInt (prompt("Insira um número:"));
 
 //se o valor inserido for verdadeiro para tais declarações, então o valor deve ser considerado inválido
 //isNan para caso o valor inserido não for númerico
-//numero<=0 se for um número negativo ou igual á zero
-if (isNaN(numero) || numero<=0) {
+if (isNaN(numero)) {
 
     alert("ERRO: este número não é válido")
 
-//se for diferente dessas declarações, então é um número válido
+//se for diferente de um valor não numérico, então é um número válido
 } else {
 
     //se o resto da divisão o número por 2 for igual a 0, então o número é par
