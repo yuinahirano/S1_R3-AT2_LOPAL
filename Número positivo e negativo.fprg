@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="N&#250;mero positivo e negativo"/>
+        <attribute name="authors" value="DES-I1HSB"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-04-08 01:54:26 "/>
+        <attribute name="created" value="REVTLUkxSFNCO0VTTjUxMk4xMjYyODI3OzIwMjUtMDQtMDg7IjAxOjA2OjM0ICI7MjYyMg=="/>
+        <attribute name="edited" value="REVTLUkxSFNCO0VTTjUxMk4xMjYyODI3OzIwMjUtMDQtMDg7IjAxOjU0OjI2ICI7MzsyNzM2"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="numTentativa" type="Real" array="False" size=""/>
+            <output expression="&quot;Insira um n&#250;mero&quot;" newline="True"/>
+            <input variable="numTentativa"/>
+            <comment text="Se a vari&#225;vel for maior que 0 ser&#225; positivo, se for menos de 0 ser&#225; negativo"/>
+            <if expression="numTentativa &gt; 0">
+                <then>
+                    <output expression="&quot;O n&#250;mero que voc&#234; escreveu &#233; positivo!&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;O n&#250;mero que voc&#234; escreveu &#233; negativo!&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

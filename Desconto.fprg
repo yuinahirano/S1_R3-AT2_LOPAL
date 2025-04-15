@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="Desconto"/>
+        <attribute name="authors" value="DES-I1HSB"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-04-15 10:27:46 "/>
+        <attribute name="created" value="REVTLUkxSFNCO0VTTjUxMk4xMjYyODI3OzIwMjUtMDQtMDg7IjAxOjE4OjMyICI7MjYyMw=="/>
+        <attribute name="edited" value="REVTLUkxSFNCO0VTTjUxMk4xMjYyODI3OzIwMjUtMDQtMTU7IjEwOjI3OjQ2ICI7NDsyNzM3"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="valorCompra, valorTotal" type="Real" array="False" size=""/>
+            <output expression="&quot;Insira o valor da compra&quot;" newline="True"/>
+            <input variable="valorCompra"/>
+            <if expression="valorCompra&gt;=100">
+                <then>
+                    <comment text="Para descobrir 10% de um valor &#233; preciso multiplicar por 0,1. Mas como precisamos saber apenas do valor da compra depois que foi aplicado o desconto podemos multiplicar por 0,9"/>
+                    <assign variable="valorTotal" expression="valorCompra * 0.9"/>
+                    <output expression="&quot;Voc&#234; ganhou 10% de desconto! O valor total da compra a pagar &#233; de R$&quot;&amp;valorTotal&amp;&quot;&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;Voc&#234; n&#227;o ganhou desconto! O valor da compra continuar&#225; sendo o mesmo&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

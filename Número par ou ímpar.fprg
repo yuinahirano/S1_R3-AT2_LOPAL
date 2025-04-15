@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="N&#250;mero par ou &#237;mpar"/>
+        <attribute name="authors" value="DES-I1HSB"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-04-08 01:45:25 "/>
+        <attribute name="created" value="REVTLUkxSFNCO0VTTjUxMk4xMjYyODI3OzIwMjUtMDQtMDg7IjAxOjE0OjU4ICI7MjYyNw=="/>
+        <attribute name="edited" value="REVTLUkxSFNCO0VTTjUxMk4xMjYyODI3OzIwMjUtMDQtMDg7IjAxOjQ1OjI1ICI7MzsyNzM1"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="numero" type="Integer" array="False" size=""/>
+            <output expression="&quot;Insira um n&#250;mero&quot;" newline="True"/>
+            <input variable="numero"/>
+            <comment text="Todo n&#250;mero par &#233; dividido por 2, ent&#227;o se o m&#243;dulo/resto da divis&#227;o da vari&#225;vel por 2 for igual a 0, ent&#227;o quer dizer que o n&#250;mero &#233; par"/>
+            <if expression="numero % 2 = 0">
+                <then>
+                    <output expression="&quot;O n&#250;mero que voc&#234; escreveu &#233; par!&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;O n&#250;mero que voc&#234; escreveu &#233; &#237;mpar&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

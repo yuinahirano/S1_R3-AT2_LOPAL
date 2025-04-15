@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="M&#250;ltiplo de 5"/>
+        <attribute name="authors" value="DES-I1HSB"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-04-08 01:45:08 "/>
+        <attribute name="created" value="REVTLUkxSFNCO0VTTjUxMk4xMjYyODI3OzIwMjUtMDQtMDg7IjAxOjM0OjE0ICI7MjYyMQ=="/>
+        <attribute name="edited" value="REVTLUkxSFNCO0VTTjUxMk4xMjYyODI3OzIwMjUtMDQtMDg7IjAxOjQ1OjA4ICI7NDsyNzM3"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="numero" type="Integer" array="False" size=""/>
+            <output expression="&quot;Insira um n&#250;mero&quot;" newline="True"/>
+            <input variable="numero"/>
+            <comment text="Todo m&#250;ltiplo de 5 pode ser divido por 5, se o m&#243;dulo/resto da divis&#227;o da vari&#225;vel por 5 for igual a 0, ent&#227;o o n&#250;mero ser&#225; m&#250;ltiplo de 5"/>
+            <if expression="numero%5=0">
+                <then>
+                    <output expression="&quot;O n&#250;mero que voc&#234; escreveu &#233; m&#250;ltiplo de 5!&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;O n&#250;mero que voc&#234; escreveu N&#195;O &#233; m&#250;ltiplo de 5&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
