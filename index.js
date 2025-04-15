@@ -1,10 +1,9 @@
-//declarar a variável com parseFloat, mesmo que apenas números inteiros podem ser pares ou ímpares. Se usar o parseInt, não irá dar certo
-const numero = parseFloat (prompt("Insira um número:"));
+const numero = parseInt (prompt("Insira um número:"));
 
 //se o valor inserido for verdadeiro para tais declarações, então o valor deve ser considerado inválido
 //isNan para caso o valor inserido não for númerico
 //numero<=0 se for um número negativo ou igual á zero
-if (isNaN(numero) || numero<=0 ) {
+if (isNaN(numero) || numero<=0) {
 
     alert("ERRO: este número não é válido")
 
